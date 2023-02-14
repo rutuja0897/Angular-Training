@@ -1,0 +1,51 @@
+<h2>Employee DataList</h2>
+
+<button (click)="add()">Add</button>
+<br />
+<br />
+
+<table>
+  <!-- <tr>
+    <th *ngFor="let column; headers">
+      {{ column }}
+    </th>
+  </tr>
+
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let column of headers">
+      {{ row[column] }}
+    </td>
+  </tr> -->
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Employee Name</th>
+      <th>Joining Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Rutuja</td>
+      <td><span>22-02-2022</span></td>
+    </tr>
+
+    <tr>
+      <td>2</td>
+      <td>Vedashri</td>
+      <td><span>20-02-2022</span></td>
+    </tr>
+
+    <tr>
+      <td>3</td>
+      <td>Sakshi</td>
+      <td><span>2-2-2022</span></td>
+    </tr>
+
+    <tr>
+      <td>4</td>
+      <td>Anuja</td>
+      <td><span>2-07-2022</span></td>
+    </tr>
+  </tbody>
+</table>

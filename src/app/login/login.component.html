@@ -1,0 +1,29 @@
+<h3>Login Form!!</h3>
+<form class="example-form">
+  <div class="container">
+    <label>Username : </label>
+    <input
+      type="text"
+      placeholder="Enter Username"
+      name="username"
+      [(ngModel)]="username"
+      required
+    />
+    <br />
+    <br />
+    <label>Password : </label>
+    <input
+      type="password"
+      placeholder="Enter Password"
+      name="password"
+      [(ngModel)]="password"
+      required
+    /><br />
+    <br />
+    <button (click)="submit()">Submit</button>
+  </div>
+  <br />
+
+  <span *ngIf="show">Login success !!</span>
+  <span *ngIf="!show && !conditional"> Please enter valid password !!</span>
+</form>
