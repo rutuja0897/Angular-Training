@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": "3",
+      "fullName": "Prajakta Kharat",
+      "address": "Pune",
+      "phone": "1234567890",
+      "email": "pa@gmail.com",
+      "dob": "2023-05-06",
+      "hobbies": [
+        "Music"
+      ],
+      "role": "3"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
